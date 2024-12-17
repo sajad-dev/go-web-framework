@@ -51,40 +51,6 @@ cp .env.example .env
 ```bash
 go run main.go
 ```
-
-## 📝 Available Commands | دستورات موجود
-
-Here are the available commands for this project:  
-دستورات موجود برای این پروژه عبارتند از:
-
-- `migration`: Run database migrations  
-  اجرای مهاجرت‌های پایگاه داده
-
-- `websocket`: Start the websocket server  
-  شروع سرور وب‌سوکت
-
-- `middleware`: Use custom middlewares for request handling  
-  استفاده از میدلورهای سفارشی برای مدیریت درخواست‌ها
-
-- `model`: Define and manage database models  
-  تعریف و مدیریت مدل‌های پایگاه داده
-
-- `validation`: Perform input validation  
-  انجام اعتبارسنجی ورودی‌ها
-
-- `helpers`: Use utility functions for various tasks  
-  استفاده از توابع کمکی برای وظایف مختلف
-
-- `command`: Execute custom commands in the framework  
-  اجرای دستورات سفارشی در فریم‌ورک
-
-- `error`: Handle errors and exceptions in the application  
-  مدیریت خطاها و استثناها در اپلیکیشن
-
-- `auto-compiler`: Automatically recompile the project when changes are detected  
-  کامپایل خودکار پروژه هنگام شناسایی تغییرات
-
-- `help`: Display the help message with available commands  
   نمایش پیام راهنما با دستورات موجود
 
 ## 🧪 Running Tests | اجرای تست‌ها
@@ -93,17 +59,14 @@ To run tests for this project, follow these steps: (برای اجرای تست�
 
 1. Run the tests using the `go test` command:  (اجرای تست‌ها با استفاده از دستور `go test`)
 ```bash
-go test ./...
+go test ./test/check-system
 ```
 2. To see more detailed output, use the `-v` flag:  (برای مشاهده خروجی دقیق‌تر، از فلگ `-v` استفاده کنید)
  
  ```bash 
-   go test -v ./...
+   go test -v ./test/check-system
 ```
-3. If you want to run tests for a specific package or file, specify the path:  (اگر می‌خواهید تست‌ها را برای یک پکیج یا فایل خاص اجرا کنید، مسیر آن را مشخص کنید)
-```bash
-go test ./path/to/package
-```
+
 ## 🧑‍💻 Author | نویسنده
 
 Mohammad Sajad Poorajam (محمد سجاد پورعجم)
